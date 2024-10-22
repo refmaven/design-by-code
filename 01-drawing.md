@@ -21,36 +21,29 @@ The p5.js canvas is divided into two parts:
 2. `draw()`: This function runs continuously, refreshing the screen at around 60 frames per second by default. Anything you put in `draw()` will be repeated every frame, so it can be used for animation and dynamic changes.
 
 #### So, what do I do now?
-
-Let’s start by creating a canvas and giving it a background color.
+Let’s start by creating a small canvas and adding a background color. We’ll start with a 400x400 pixel canvas.
 
 1. Create a canvas inside `setup()`:
     ```js
     function setup(){
-      createCanvas(windowWidth, windowHeight);
+      createCanvas(400, 400);
     }
     ```
-    This line creates a canvas that’s the size of your browser window. The `windowWidth` and `windowHeight` variables automatically adjust to the window size.
+This line creates a canvas that’s 400 pixels wide and 400 pixels tall, just the right size for making bite-sized art.
 
 2. Add a background color inside `draw()`:
-
     ```js
     function setup(){
-      createCanvas(windowWidth, windowHeight);
+      createCanvas(400, 400);
     }
-    
+
     function draw(){
       background(255); // 255 is white
     }
     ```
-    The `background(255)` line fills the entire canvas with white every frame. The number 255 represents the maximum brightness in grayscale, so it gives you a solid white background. You can replace 255 with other values (0 is black, and any number between 0 and 255 gives you shades of gray).
+    The `background(255)` line fills the entire canvas with white every frame. The number `255` represents the maximum brightness in grayscale, so it gives you a solid white background. You can replace `255` with other values (0 is black, and any number between 0 and 255 gives you shades of gray).
 
 With these two steps, you now have a blank canvas ready to be filled with shapes, colors, and designs.
-
-#### A quick breakdown:
-
-- `createCanvas()` sets up the size of the canvas.
-- `background()` resets the canvas each frame, ensuring a fresh slate to draw on (without it, your shapes would pile up and create trails).
 
 #### What's next?
 
