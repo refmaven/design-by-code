@@ -1,6 +1,6 @@
 ## 10/22/24, Drawing
 
-### The Canvas
+### The canvas
 
 In p5.js, the canvas is your drawing area, where all your shapes and designs will come to life. Here’s the basic structure of a p5.js sketch:
 
@@ -47,11 +47,11 @@ Let’s start by creating a canvas and giving it a background color.
 
 With these two steps, you now have a blank canvas ready to be filled with shapes, colors, and designs.
 
-#### A Quick Breakdown:
+#### A quick breakdown:
 
 - `createCanvas()` sets up the size of the canvas.
 - `background()` resets the canvas each frame, ensuring a fresh slate to draw on (without it, your shapes would pile up and create trails).
 
-#### What's Next?
+#### What's next?
 
 Now that we have a blank canvas, let's draw some shapes and begin exploring the basic building blocks of visual design in p5.js.
