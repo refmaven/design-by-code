@@ -16,7 +16,7 @@ function draw(){
 The p5.js canvas is divided to 2 parts:
 
 1. Anything in `setup()` **runs** only **once**, right when you open the canvas (or when you hit that "play" button on p5.js editor).
-2. Meanwhile, everything in `draw()` is **repeated** every frame.
+2. Meanwhile, anything in `draw()` is **repeated** every frame.
 
 #### So, what do I do now?
 
@@ -39,8 +39,8 @@ The p5.js canvas is divided to 2 parts:
      background(255)
    }
    ```
-3. And we're done. We've created a white canvas for us to draw.
 
+We've created a canvas. Now we can actually draw some stuff ...
 
 ### Squares
 
