@@ -24,7 +24,7 @@ The p5.js canvas is divided into two parts:
 
 Let’s start by creating a canvas and giving it a background color.
 
-1. Create a canvas inside setup():
+1. Create a canvas inside `setup()`:
     ```js
     function setup(){
       createCanvas(windowWidth, windowHeight);
@@ -32,7 +32,7 @@ Let’s start by creating a canvas and giving it a background color.
     ```
     This line creates a canvas that’s the size of your browser window. The `windowWidth` and `windowHeight` variables automatically adjust to the window size.
 
-2. Add a background color inside draw():
+2. Add a background color inside `draw()`:
 
     ```js
     function setup(){
