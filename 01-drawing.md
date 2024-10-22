@@ -55,3 +55,13 @@ With these two steps, you now have a blank canvas ready to be filled with shapes
 #### What's next?
 
 Now that we have a blank canvas, let's draw some shapes and begin exploring the basic building blocks of visual design in p5.js.
+
+### Line
+
+### Square
+
+### Circle
+
+### Triangle
+
+### Quadrilaterals
