@@ -1,3 +1,3 @@
-This is how you can make a non-AI generative graphic design system, just like what i'm doing.
+This is how you can make a non-AI generative graphic design system, just like what I'm doing.
 
-It's still far from done, I haven't even finished coding the basic stuff for the system.
+It's still far from done, I haven't even finished coding the basic stuff for the system yet.
