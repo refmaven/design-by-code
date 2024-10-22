@@ -24,14 +24,17 @@ The p5.js canvas is divided into two parts:
 Let’s start by creating a small canvas and adding a background color. We’ll start with a 400x400 pixel canvas.
 
 1. Create a canvas inside `setup()`:
+
     ```js
     function setup(){
       createCanvas(400, 400);
     }
     ```
+    
 This line creates a canvas that’s 400 pixels wide and 400 pixels tall, just the right size for making bite-sized art.
 
 2. Add a background color inside `draw()`:
+
     ```js
     function setup(){
       createCanvas(400, 400);
@@ -41,6 +44,7 @@ This line creates a canvas that’s 400 pixels wide and 400 pixels tall, just th
       background(255); // 255 is white
     }
     ```
+    
     The `background(255)` line fills the entire canvas with white every frame. The number `255` represents the maximum brightness in grayscale, so it gives you a solid white background. You can replace `255` with other values (0 is black, and any number between 0 and 255 gives you shades of gray).
 
 With these two steps, you now have a blank canvas ready to be filled with shapes, colors, and designs.
